@@ -1,0 +1,10 @@
+СТРУКТУРА ОБРАБОТИКА
+
+handler_name
+|_ __init__.py
+|_ _handler.py - место, где находится сам обработчик
+*
+|_ [some additional files]
+
+
+!НЕ ЗАБУДЬ ДОБАВИТЬ ОБРАБОТЧИК В СПИСОК active_handlers В client_handlers/__init__.py
