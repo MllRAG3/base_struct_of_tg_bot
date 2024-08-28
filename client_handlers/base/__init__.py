@@ -1,1 +1,1 @@
-from ._handler import BaseHandler, request_type, Client
+from ._handlers import BaseHandler, request_type, Client
