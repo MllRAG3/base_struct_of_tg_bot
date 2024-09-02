@@ -1,6 +1,6 @@
 from pyrogram.types import Message, User, Chat
 
-from database.models import active_models
+from database.models import *
 from database.db_init import db
 
 
