@@ -8,7 +8,6 @@ request_type = types.Message | types.CallbackQuery  # add some types here if you
 class BaseHandler:
     """Базовый обработчик-исполнитель"""
     __name__ = ""
-    text_cmd = ""
     HANDLER: Handler = Handler
     FILTER: filters.Filter | None = None
 
